@@ -14,7 +14,7 @@ Email enquiries: [bnz.mngn [at] gmail [dot] com](mailto:bnz.mngn@gmail.com)
 ---
 
 Using custom room settings or adding functionality is done by loading your own script loading and modifying the bot.
-This repository's purpose is to facilitate this. You can fork the repository and customise [the example script](https://github.com/natan0075/custom/blob/master/extension.js).
+This repository's purpose is to facilitate this. You can fork the repository and customise [the example script](https://github.com/bscBot/custom/blob/master/extension.js).
 When you have forked the repo, bookmark the following script, __but change _bscBot_ to your own github handle__.
 
 `javascript:(function(){$.getScript('https://rawgit.com/bscBot/custom/master/extension.js');})();`
