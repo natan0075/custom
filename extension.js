@@ -1,7 +1,7 @@
 (function () {
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "basicBot";
+    var fork = "natan0075";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -48,13 +48,13 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
       botName: "basicBot",
       language: "english",
-      chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
-      scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
+      chatLink: "https://rawgit.com/natan0075/source/master/lang/en.json",
+      scriptLink: "https://rawgit.com/natan0075/source/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
       startupVolume: 0, // 0-100
       startupEmoji: false, // true or false
-      autowoot: true,
+      autowoot: false,
       autoskip: false,
       smartSkip: true,
       cmdDeletion: true,
@@ -68,8 +68,8 @@
       maximumLocktime: 10,
       cycleGuard: true,
       maximumCycletime: 10,
-      voteSkip: false,
-      voteSkipLimit: 10,
+      voteSkip: true,
+      voteSkipLimit: 4,
       historySkip: false,
       timeGuard: true,
       maximumSongLength: 10,
